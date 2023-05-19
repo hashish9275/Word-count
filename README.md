@@ -24,6 +24,7 @@ count the number of words
 putting print statement for getting output
 
 ## PROGRAM:
+```
 '''Program to count the words in a file
 Developed by: K R HASHISH VIDYA SAGAR
 Register Number: 212222230047
@@ -35,7 +36,7 @@ with open(fname, 'r') as f:
         words=line.split()
         num_words+=len(words)
 print('Number of words: ',num_words)
-
+```
 ### OUTPUT:
 
 ![py xp 5b](https://github.com/hashish9275/Word-count/assets/118707521/7e2a3799-943a-452b-8d78-ff882fd7e73b)
